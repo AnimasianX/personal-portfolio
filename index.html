@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+  <!-- Menu Overlay -->
+  <div class="overlay" id="overlay">
+    <!-- Menu Items -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="#work-experience">Work Experience</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Menu Bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <!-- Sections -->
+  <section id="home"><a href="" target="_blank">Jimmy Lin</a>
+    <div>
+      <img src="images/jimmy.jpg" id="profile-img">
+      <div>
+        <h2>Hi I'm Jimmy</h2>
+      </div>
+    </div>
+
+  </section>
+  <section id="about">
+    <div class="about-me">
+      <h1>About Me</h1>
+      <p class="about-me-text">I am a Fullstack Developer from New York.</p>
+      <p class="about-me-text">I love making projects that I find interesting and complex where <br>
+        I can apply my skills and break down a problem into smaller tasks to achieve a bigger goal.<br>
+        I also love adding logic and structure when I code and strive to produce clean, readable and efficient code.</p>
+      <p class="about-me-text">
+        When I am not coding or making projects, I love having fun with others through gaming(mostly),<br>
+         taking walks and overall bettering myself one day at a time. I also have a deep passion for learning new things<br>
+         as they inspire new things that I can try in all walks of my life!
+      </p>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="skill-list">
+      <h1>Skills</h1>
+      <div style="float: left; width: 50%;">
+        <ul class="skill-list-1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>AWS(EC2/Athena/S3)</li>
+        <li>Docker</li>
+        </ul>
+        </div>
+        <div style="float: right; width: 50%;">
+        <ul class="skill-list-2">
+        <li>SQL</li>
+        <li>RESTful</li>
+        <li>React</li>
+        <li>jQuery/EJS</li>
+        <li>Agile/JIRA</li>
+        <li>++C</li>
+        <li>Python3.6</li>
+        <li>GraphQL</li>
+        </ul>
+        </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="project-section">
+    <div class="project-title">
+      <h1>Projects</h1>
+      <h5>Click on image to view project</h5>
+    </div> 
+    <div id="carousel-project" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-project" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-project" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-project" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="http://3.86.218.66:8000/">
+          <img src="https://unsplash.com/photos/Yj1M5riCKk4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTd8fG5hc2F8ZW58MHx8fHwxNjY1MTAwNDc1&force=true&w=1920" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>NASA Project</h5>
+            <p>A Web Application mocking rocket launches to habitable planets.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://animasianx.github.io/Music-Player/">
+          <img src="https://unsplash.com/photos/yWF2LLan-_o/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY1MTAzOTI1&force=true&w=1920" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Music Player</h5>
+            <p>Application that uses DOM manipulation to play/pause/skip tracks</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://animasianx.github.io/Joke-Teller/">
+          <img src="https://unsplash.com/photos/z2AvphP--S0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mjd8fGxhdWdofGVufDB8fHx8MTY2NTA5ODQ3NA&force=true&w=1920" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Joke Teller</h5>
+            <p>Application using Joke API and text-to-speech API for telling jokes.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://animasianx.github.io/Drum-Kit/">
+          <img src="https://unsplash.com/photos/mLnG4BkTz54/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY1MTA0NTI3&force=true&w=1920" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Drum Kit</h5>
+            <p>Application using DOM manipulation and event listeners to play instruments on the page.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-project" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-project" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  </section>
+  <section id="work-experience">
+    <div class="my-work">
+      <div id="work-title"><h1>Work Experience</h1></div>
+      <div class="work-desc">
+        <h4>Quality Assurance Software Engineer at Comcast Networks(March 2019 - July 2021)</h4>
+          <p><u>Responsibilities</u></p>
+          <ul class="work-list">
+            <li>I was responsible for creating servers in Python/Flask to emulate production server responses using RESTful methodology.</li>
+            <li>I was responsible for automating end-to-end tests in our microservice architecture with Python/Behave to ensure quality and expected response codes/messages to match requests.</li>
+            <li>I was responsible for ensuring data integrity by using prometheus and splunk to monitor logs from various servers.</li>
+            <li>I was responsible for ensuring that APIs are returning correct data and responses to other microservices components.</li>
+            <li>I was responsible with tools like Jenkins to implement and deploy build automation.</li>
+            <li>I was responsible for testing, deploying and monitoring metrics to ensure that no bugs or anomalies are pushed to productions where it can affect millions of customers.</li>
+          </ul>
+      </div>
+      <div class="work-desc">
+          <h4>Fullstack Software Engineer(January 2019 - March 2019)</h4>
+          <p><u>Responsibilities</u></p>
+          <ul class="work-list">
+            <li>I was responsible for creating a Full-Stack application with Java/Spring/Hibernate and Angular for the backend and HTML/CSS/JavaScript/TypeScript to make the frontend.</li>
+            <li>I was responsible for mapping out a MVC architecture and implementing the functionalities for the fullstack application with Spring/Hibernate and SQL database.</li>
+            <li>I was responsible for making a wishlist feature with full database(SQL) functionality so that users can add items to the list and connect other relations to it.</li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer-padding"></div>
+  <div class="footer">
+    <a class="footer-link" href="https://www.linkedin.com/in/animasian/"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+    <a class="footer-link" href="https://github.com/AnimasianX"><i class="fa-brands fa-github fa-lg"></i></a>
+  </div>
+  <!-- Script -->
+  
+  <script src="script.js"></script>
+</body>
+</html>
